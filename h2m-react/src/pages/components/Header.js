@@ -1,9 +1,9 @@
 import React from 'react';
-import '../styles/header.css'; // Import the CSS file for any additional styling
+import '../../index.css'; // Import the CSS file for any additional styling
 
 function Header() {
   return (
-    <header className="bg-black text-white p-4 shadow-md">
+    <header className="pos bg-black text-white p-4 shadow-md sticky top-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
         <button 
           onClick={() => window.location.href = '/'} 

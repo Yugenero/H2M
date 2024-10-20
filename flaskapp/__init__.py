@@ -14,6 +14,7 @@ db_config = {
     'database': 'your_db_name'
 }
 
+# Conect to Google Cloud SQL Genome Database
 @app.route('/api/query', methods=['GET'])
 def query_database():
     query = request.args.get('query')

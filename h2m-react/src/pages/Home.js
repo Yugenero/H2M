@@ -25,7 +25,10 @@ function Home() {
   return (
     <div className="home_page">
       <header className="home_header">
-        <h1>Genome Data Query</h1>
+        <h1>
+          <span className='home_human'>Human</span>2<span className='home_mouse'>Mouse</span>
+        </h1>
+        <p>Modeling human variants in the mouse genome</p>
         <form onSubmit={handleQuerySubmit} className="query_form">
           <input
             type="text"
@@ -34,12 +37,16 @@ function Home() {
             placeholder="Enter your SQL query"
             className="query_input"
           />
-          <button type="submit" className="query_button">Submit</button>
-        </form>
+            <button type="button" 
+              class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Dark
+            </button>
+          </form>
+
         <div className="results_section">
           <h2>Results</h2>
           <pre className="results_pre">{JSON.stringify(results, null, 2)}</pre>
         </div>
+
       </header>
     </div>
   );
