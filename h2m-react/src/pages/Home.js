@@ -24,7 +24,9 @@ function Home() {
 
   return (
     <div className="home_page">
-      <header className="home_header">
+
+      <div className='home_page_left_container'>
+      <div className="home_header">
         <h1>
           <span className='home_human'>Human</span>2<span className='home_mouse'>Mouse</span>
         </h1>
@@ -47,7 +49,11 @@ function Home() {
           <pre className="results_pre">{JSON.stringify(results, null, 2)}</pre>
         </div>
 
-      </header>
+      </div>
+      </div>
+      <div className='home_page_right_container'>
+
+      </div>
     </div>
   );
 }

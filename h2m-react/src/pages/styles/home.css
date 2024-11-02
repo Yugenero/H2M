@@ -4,12 +4,31 @@
 	align-items: center;
 	height: 100vh;
 	background-color: #f0f0f0;
-  }
-  
-  .home_header {
+}
+
+.home_page_left_container {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 50%;
+	height: inherit;
+	justify-content: center;
+
+}.home_page_right_container {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 50%;
+	height: inherit;
+	background-color: var(--silvergray);
+}
+
+.home_header {
 	text-align: center;
 	background: white;
+	height: 70%;
 	padding: 20px;
+	margin: 20px;
 	border-radius: 10px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }

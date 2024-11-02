@@ -6,9 +6,9 @@ return (
 		<footer className="bg-black text-white p-4">
 			<div className="container mx-auto flex justify-start">
 				<div className="flex flex-col text-left">
-					<span><strong>About us</strong></span>
-					<a className="hover:underline" href='https://www.sanchezriveralab.com/'>Sánchez-Rivera Lab</a>
-					<span><a className='hover:underline' href='https://ki.mit.edu/'>Koch Institute for Integrative Cancer Research</a> @ MIT </span>
+					<span className='mt-4 mb-4'><strong>About us</strong></span>
+					<a className="hover:underline mt-4" href='https://www.sanchezriveralab.com/'>Sánchez-Rivera Lab</a>
+					<span><a className='hover:underline mt-4' href='https://ki.mit.edu/'>Koch Institute for Integrative Cancer Research</a> @ MIT </span>
 					<a className='hover:underline' href='https://mit.edu'>Massachusetts Institute of Technology</a>
 				</div>
 			</div>
